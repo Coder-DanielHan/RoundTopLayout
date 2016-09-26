@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="tab_supplier_string" format="string" />
+    <attr name="tab_home" format="reference" />
+    <attr name="tab_supplier" format="reference" />
+    <attr name="tab_activity" format="reference" />
+    <attr name="tab_demand" format="reference" />
+    <attr name="tab_my" format="reference" />
+    <attr name="tab_font_color" format="reference" />
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+
+    <color name="transparent">#00000000</color>
+    <color name="deyang_indicator">#DA4910</color>
+    <color name="gray_999">#999</color>
+    <color name="red">#ffff00</color>
+
+</resources>

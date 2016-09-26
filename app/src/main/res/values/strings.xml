@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RoundTopLayout</string>
+    <string name="tab_home">首页</string>
+    <string name="tab_supplier_dy">企业</string>
+    <string name="tab_demand">需求</string>
+    <string name="tab_my">我</string>
+
+</resources>

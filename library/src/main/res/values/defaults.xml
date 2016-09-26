@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--RoundToplayout-->
+    <color name="default_rtl_backcolor">@android:color/white</color>
+    <color name="default_rtl_linecolor">@android:color/black</color>
+    <dimen name="default_rtl_linesize">1dp</dimen>
+    <dimen name="default_rtl_gapsize">15dp</dimen>
+    <dimen name="default_rtl_centerwidth">37dp</dimen>
+</resources>

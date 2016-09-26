@@ -1,0 +1,57 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+        <!-- <item name="android:windowFullscreen">true</item> -->
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+    <!-- 底部导航栏 -->
+    <style name="main_tab_bottom">
+
+        <!-- <item name="android:textSize">@dimen/bottom_tab_font_size</item> -->
+        <!-- <item name="android:textColor">@color/bottom_text_color</item> -->
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@null</item>
+        <item name="android:drawablePadding">5dp</item>
+        <!-- <item name="android:paddingTop">@dimen/bottom_tab_padding_up</item> -->
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <!-- <item name="android:drawablePadding">@dimen/bottom_tab_padding_drawable</item> -->
+    </style>
+
+    <style name="deyangStyle" parent="AppBaseTheme">
+        <item name="tab_supplier_string">@string/tab_supplier_dy</item>
+        <item name="tab_home">@drawable/tab_home_normal</item>
+        <item name="tab_supplier">@drawable/tab_supplier_normal</item>
+        <item name="tab_activity">@drawable/expb_show</item>
+        <item name="tab_demand">@drawable/tab_demand_normal_dy</item>
+        <item name="tab_my">@drawable/tab_my_normal</item>
+        <item name="tab_font_color">@drawable/tab_font_color_dy</item>
+        <item name="roundTopLayoutStyle">@style/CustomRoundTopLayoutStyle</item>
+    </style>
+
+
+    <style name="CustomRoundTopLayoutStyle">
+        <item name="backcolor">#ff0000</item>
+        <item name="linecolor">#00ff00</item>
+        <item name="linesize">10dp</item>
+        <item name="gapsize">40dp</item>
+        <item name="centerwidth">150dp</item>
+    </style>
+
+
+    <style name="CustomRoundTopLayoutStyle1">
+        <item name="backcolor">#ffff00</item>
+        <item name="linecolor">#00ff00</item>
+        <item name="linesize">10dp</item>
+        <item name="gapsize">40dp</item>
+        <item name="centerwidth">150dp</item>
+    </style>
+
+
+</resources>

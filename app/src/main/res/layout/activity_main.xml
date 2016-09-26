@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:rtl="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="55dp" />
+
+    <com.danielhan.sample.library.RoundTopLayout
+        android:id="@+id/rtl"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layerType="software"
+        rtl:backcolor="@android:color/white"
+        rtl:centerwidth="70dp"
+        rtl:gapsize="20dp"
+        rtl:linecolor="@color/gray_999"
+        rtl:linesize="1dp"
+        style="@style/CustomRoundTopLayoutStyle1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:orientation="horizontal"
+            android:paddingTop="2dp">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1">
+
+                <RadioButton
+                    style="@style/main_tab_bottom"
+                    android:layout_width="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:checked="true"
+                    android:drawableTop="?attr/tab_home"
+                    android:text="@string/tab_home"
+                    android:textColor="?attr/tab_font_color"
+                    android:textSize="@dimen/font_sp12" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1">
+
+                <RadioButton
+                    style="@style/main_tab_bottom"
+                    android:layout_width="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:drawableTop="?attr/tab_supplier"
+                    android:text="?attr/tab_supplier_string"
+                    android:textColor="?attr/tab_font_color"
+                    android:textSize="@dimen/font_sp12" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1">
+
+
+                <RadioButton
+                    style="@style/main_tab_bottom"
+                    android:layout_width="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:drawableTop="?attr/tab_activity"
+                    android:text="?attr/tab_supplier_string"
+                    android:textColor="?attr/tab_font_color"
+                    android:textSize="@dimen/font_sp12" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1">
+
+                <RadioButton
+                    style="@style/main_tab_bottom"
+                    android:layout_width="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:drawableTop="?attr/tab_demand"
+                    android:text="@string/tab_demand"
+                    android:textColor="?attr/tab_font_color"
+                    android:textSize="@dimen/font_sp12" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1">
+
+                <RadioButton
+                    style="@style/main_tab_bottom"
+                    android:layout_width="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:drawableTop="?attr/tab_my"
+                    android:text="@string/tab_my"
+                    android:textColor="?attr/tab_font_color"
+                    android:textSize="@dimen/font_sp12" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </com.danielhan.sample.library.RoundTopLayout>
+</RelativeLayout>

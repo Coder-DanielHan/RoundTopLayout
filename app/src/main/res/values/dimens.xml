@@ -1,0 +1,8 @@
+<resources>
+
+    <dimen name="font_sp12">12sp</dimen>
+    <dimen name="dp70">170dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+</resources>
